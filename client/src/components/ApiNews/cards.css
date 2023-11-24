@@ -1,0 +1,38 @@
+/* cards.css */
+
+.card-root {
+  max-width: 345px;
+  margin: 10px;
+  height: 560px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-root:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-media {
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.card-header {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+.card-description {
+  color: #555;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+  color: #4285f4; /* Google blue color */
+}
