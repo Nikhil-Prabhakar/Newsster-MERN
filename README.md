@@ -1,1 +1,1 @@
-# Newsster
+# Newsster - MERN Application
