@@ -61,7 +61,7 @@ const ApiNews = () => {
                 </div>
             </div>
             <div style={{ display: 'block' }}>
-                {articles.length > 0 &&
+                {articles && articles.length > 0 &&
                     articles.map((article) => (
                         <Button
                             key={article.title}
